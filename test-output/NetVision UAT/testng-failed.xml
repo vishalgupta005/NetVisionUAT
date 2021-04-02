@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NetVision UAT]">
+  <listeners>
+    <listener class-name="com.qa.ExtentreportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="UAT Test(failed)">
+    <classes>
+      <class name="com.netvision.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="netvisionLogoTest"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.netvision.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- UAT Test(failed) -->
+</suite> <!-- Failed suite [NetVision UAT] -->
